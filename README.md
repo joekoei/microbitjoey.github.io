@@ -1,1 +1,4 @@
-# microbitjoey.github.io
+# Microbit Site
+
+ - Onderdeel van een Praktijk opdracht 
+ - Curio
