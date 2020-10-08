@@ -1,11 +1,15 @@
 .wrapper {
     display: flex;
     width: 100%;
-    border-bottom: 2px solid black;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+    background-color: black
 }
 
 .logo p {
 	font-size: 25px;
+	color: white;
+	padding-left: 25px;
 }
 
 .links {
@@ -19,9 +23,18 @@
     text-decoration: none;
     text-align: center;
     font-size: 20px;
-    color: black;
+    color: white;
    	padding: 10px;
-    border: 3px solid black;
+    border: 2px solid white;
     border-radius: 70px;
     margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.links a:hover {
+	background-color: lightgray;
+}
+
+body img {
+	width: 100%;
 }
