@@ -6,16 +6,29 @@
     background-color: black
 }
 
+.logo {
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+
+
 .logo p {
 	font-size: 25px;
 	color: white;
 	padding-left: 25px;
 }
 
+.logo img {
+    width: 200px;
+    margin: 15px;
+}
+
 .links {
     display: flex;
     width: 70%;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -37,4 +50,23 @@
 
 body img {
 	width: 100%;
+}
+
+/* boxes */
+.wrapper-boxes {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  display: table-cell;
+  vertical-align: top;
+  width: 50%;
+  height: 100%;
+}
+
+.wrapper-boxes img {
+	width: 100%;
+	height:100%;
 }
